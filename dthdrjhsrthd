@@ -3,7 +3,7 @@
 
 getgenv().Prediction = 0.15038
 getgenv().AimPart = "UpperTorso"
-getgenv().Key = "Q"
+getgenv().Key = "E"
 getgenv().DisableKey = "P"
 
 getgenv().FOV = true
@@ -36,7 +36,7 @@ local SelectedDisableKey = getgenv().DisableKey
 
 function Notify(tx)
     SG:SetCore("SendNotification", {
-        Title = "Googleboy!!! | .Google Boys cam lock",
+        Title = "Googleboy!!! | .Googleboy lock",
         Text = tx,
         Duration = 5
     })
