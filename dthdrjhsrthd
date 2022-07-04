@@ -3,7 +3,7 @@
 
 getgenv().Prediction = 0.15038
 getgenv().AimPart = "UpperTorso"
-getgenv().Key = "E"
+getgenv().Key = "Q"
 getgenv().DisableKey = "P"
 
 getgenv().FOV = true
